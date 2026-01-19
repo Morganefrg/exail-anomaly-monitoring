@@ -39,17 +39,6 @@ over normal behavior and injected anomalies.
 python src/generate_data.py
 Train the anomaly detection model:
 
-bash
-Copier le code
-python src/train.py
-Launch the Streamlit application:
-
-bash
-Copier le code
-streamlit run app/app.py
-The application will be available at:
-http://localhost:8501
-
 Limitations and Future Improvements
 Sensor data is synthetic and not collected from real systems
 
